@@ -1,0 +1,51 @@
+.calculadora {
+    width: 250px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    background-color: #FA5DFA;
+    padding: 5px;
+    margin: auto;
+}
+
+p.resultado {
+    background-color: #FAAEEC;
+    color: #F00787;
+    height: 30px;
+    text-align: center;
+    line-height: 100%;
+    padding-top: 10px;
+}
+
+.botones-numeros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botones-numeros button {
+    width: 33.33%;
+    height: 30px;
+    background-color: #F00787;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #FAAEEC;
+    border-color: blueviolet;
+    margin-bottom: 5px;
+}
+
+.botones-numeros button:last-child {
+    width: 100%;
+}
+
+.botones-calculo {
+    display: flex;
+}
+
+.botones-calculo button {
+    width: 25%;
+    height: 30px;
+    background-color: #FAAEEC;
+    color: #F00787;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
